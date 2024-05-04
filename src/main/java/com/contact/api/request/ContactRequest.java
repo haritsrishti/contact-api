@@ -1,12 +1,12 @@
 package com.contact.api.request;
 
-public class ContactRequest{
+import lombok.Data;
 
-	public int id;
-	public String name;
-	public String phone;
-	public String email;
+@Data
+public class ContactRequest {
 
-
+    public String name;
+    public String phone;
+    public String email;
 }
 
